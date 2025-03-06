@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Helloworld';
+  title = 'Helloworld';<<<<<<< UC2-PropertyBinding
+  message = "Hello From Bridgelabz"
+  imgURL = "../assets/BL_logo_square_png.png"
   message = "Hello from bridgelabz"
 }
