@@ -1,3 +1,13 @@
+
+<div>
+<h1>Hello {{this.userName}} from bridgelabz</h1>
+<img (click)="onClick()" [src]="imgURL" alt="logo">
+</div>
+<div>
+  <input [(ngModel)]="userName"/> <br><br/>
+</div>
+<router-outlet></router-outlet>
+
 <h1>{{message}}</h1>
 
 <img [src]="imgURL" alt="logo">

@@ -6,8 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Helloworld';<<<<<<< UC2-PropertyBinding
+  title = 'Helloworld';
   message = "Hello From Bridgelabz"
   imgURL = "../assets/BL_logo_square_png.png"
+
+  url = "https://www.bridgelabz.com/"
+  userName: string = "";
+  onClick(){
+    window.open(this.url)
+  }
+
+
   message = "Hello from bridgelabz"
+
 }
