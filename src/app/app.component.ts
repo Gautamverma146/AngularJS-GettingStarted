@@ -10,7 +10,9 @@ export class AppComponent {
   message = "Hello From Bridgelabz"
   imgURL = "../assets/BL_logo_square_png.png"
   url = "https://www.bridgelabz.com/"
+  userName: string = "";
   onClick(){
     window.open(this.url)
   }
+
 }
